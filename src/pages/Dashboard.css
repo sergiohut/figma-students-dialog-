@@ -1,0 +1,74 @@
+main{
+    display: flex;
+    width: 100%;
+}
+
+.table{
+    margin: 2rem;
+    
+
+}
+
+.tableHeadings{
+    display: grid;
+    grid-template-columns: 60px 160px 160px 230px 80px 20px;
+    gap:4.5rem;
+    width: 75vw;
+
+}
+
+.tableData{
+    display: grid;
+    grid-template-columns: 60px 160px 160px 230px 80px 20px;
+    gap:4.5rem;
+}
+
+.tableData > img{
+    width: 24px;
+    height: auto;
+}
+
+.newStudentBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-highlight);
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--color-highlight);
+    height: 50px;
+    width: 175px;
+    color: var(--color-primary);
+    gap: 0.5rem;
+}
+
+.newStudentBtn > img{
+    width: 19px;
+    height: auto;
+}
+
+.content{
+    margin-top: 2rem;
+}
+
+.modalStudent{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    Width: 480px;
+    Height: 611px;
+    text-align: center;
+    border: none;
+}
+
+.modalT{
+    background-color: transparent;
+}
+
+.darken{
+    background-color: rgba(128, 128, 128, 0.324);
+  }
+
+.transparent{
+    background-color: transparent;
+}
